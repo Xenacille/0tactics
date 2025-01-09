@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<title> Home
+</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style type="text/css">
+	body{
+		margin:0;
+		padding:0;
+		background-color: black;
+		overflow-x: hidden;
+		overflow-y: hidden;
+		width: 100%; height: 100%;
+		object-fit:cover;
+	}
+	header{
+		background: #020202;
+		color:white;
+		text-shadow: 0 0 42px white;
+		font-family: Old English Text MT;
+		position: fixed;
+		top: 0;
+		width: 100%;
+		z-index:99;
+	}
+	a{
+		color:white;
+	}
+	h1{
+		font-family: NSimSun;
+	}
+	.container{
+		height:auto;
+		color:white;
+		height:100%	;
+		width: 50%;
+		margin:auto;
+		font-size: ;
+		position: relative;
+	}
+	.navcontainer{
+		display:flex;
+		justify-content: space-between;
+		width: 80%;
+		position: relative;
+
+	}
+	.navcontainer ul{
+		text-decoration: none;
+		list-style-type: none;
+		margin-top: 10px;
+	}
+	.navcontainer ul li{
+		display: inline-block;
+		margin-top: 20px;
+		margin-left: 20px;
+	}
+	.hero{
+		margin:0;
+		width: 100vw;
+		height: 100vh;
+		background-image: linear-gradient(to bottom,transparent 0%, #000000bd 90%, #000000 100%),url("Mainpage.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: relative;
+	}
+	.hero{
+				z-index: 0;
+	}
+	.hero p{
+		transform: translate(400px,200px);
+		font-size: 48px;
+		color: white;
+		margin: 0;
+		font-family: NSimSun;
+}
+	.navcontainer button{
+		background-image: url("footer3.gif");
+		color: white;
+		margin: 0;
+		border:none;
+		font-family: NSimSun;
+	}
+	.content{
+		height: 200vh;
+	}
+
+	a{
+			background-image: url("button effect.gif");
+  			color: white;
+  			padding: 5px 10px;
+  			text-align: center;
+  			text-decoration: none;
+  			display: inline-block;
+  			font-family: NSimSun;
+  			border: 0px;
+  			margin:10px;
+	}
+	.portrait{
+		height: auto;
+		weight: auto;
+		transform: translate(-300px,-100px);
+		position: fixed;
+		z-index: 0;
+	}
+	.navigation{	
+		color:white;
+		position: fixed;
+	}
+	.XenaButton{
+			background: #BD2D2D;
+  			color: white;
+  			padding: 10px 10px;
+  			text-align: center;
+  			font-size: 56px;
+  			font-family: NSimSun;
+  			border: 0px;
+  			margin:20px;
+  			font-size: ;
+  			position: fixed; 
+  			bottom:42%; 
+  			left: 45%; 
+	}
+</style>
+<body>
+<header>
+	<div class="navcontainer">
+		<div class="container">
+			<h1>Zero Tactic PH</h1>
+		</div>
+		<nav>
+			<ul>
+				<a href="http://localhost/activity/GROUP%20PROJECT/MainPage.php">Home</li>
+				<a href="http://localhost/activity/GROUP%20PROJECT/Xenacille.php">About</li>
+				<a href="https://xenacille.carrd.co/">Contact</a>
+				<a href="login.html">Log in</a>
+			</ul>
+	</div>
+</header>
+<div class="hero">
+
+	<div class="container">
+	<p>Online retailer of high performance gears and accesories for Tactical and Outdoor Sports/Hobbies!</p><br><br>
+	<img src = "Zero_Tactic_logo_transparent.png" class="portrait">
+
+	<div class="container">
+	<button type="button" onclick="location.href = 'store.html'" class = "XenaButton">Shop now</button>
+	<br>
+</div>
+</div>
+</div>
+<div class="navigation">
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<style>
+		body{
+			background: #020202;
+		}
+		.LOGINBANNER{
+			width: 20vw;
+			height: auto;
+			display: block;
+  			margin-left: auto;
+  			margin-right: auto;
+		}
+		.log {
+			padding-top:;
+			padding-bottom: 10%;
+			text-align: center;
+			background: #020202;
+			color:white;
+			font-family: NSimSun;
+		}
+		.log h1 {
+			font-size: 42px;
+			color:#BD2D2D;
+			font-family: NSimSun;
+		}
+		h1 {
+			text-align: center;
+			color:white;
+			font-family: NSimSun;
+		}
+		a:link, a:visited, .login {
+			background-image: url("button effect.gif");
+  			color: white;
+  			padding: 14px 25px;
+  			text-align: center;
+  			text-decoration: none;
+  			display: inline-block;
+  			font-family: NSimSun;
+  			border: 1px solid white;
+		}
+		a:hover, a:active, .login:hover {
+  			background-color: #BD2D2D;
+		}
+		input{
+			background-color: #020202;
+			color:white;
+			font-family: NSimSun;
+		}
+
+	</style>
+</head>
+<body>
+	<?php
+	include('DATABASE.php');
+	?>
+	<form action="" method="POST">
+		<img src = "logo.jpg" class = "LOGINBANNER">
+			<div class="log">
+			<h1> Zero Tactic PH</h1>
+			<label>Username: <br></label>
+			<input type="text" name="username" id="username">
+			<br>
+			<br> 
+			<label>Password: <br></label>
+			<input type="password" name="password" id="password">
+			<br>
+			<br>
+			<input type="submit" name="login" value="Login" class="login"> &nbsp
+			<a href="SIGNUPPAGE.php"> Sign up </a>
+		
+			</div>
+	</form>	
+</body>
+</html>
